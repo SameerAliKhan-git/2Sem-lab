@@ -1,2 +1,2 @@
-# Pythgon-Lab
+# Python-Lab
 Repository for Python lab                                                                                                                                                                                                                
