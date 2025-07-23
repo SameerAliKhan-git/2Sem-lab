@@ -1,0 +1,2 @@
+Hello world! This is a sample file. The world is beautiful.
+Hello again, world.

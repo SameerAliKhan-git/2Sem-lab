@@ -1,3 +1,6 @@
+# 01. Write a program to find the product and sum of two matrices [A]nxp and [B]pxr using Numpy.
+
+
 import numpy as np
 
 # Example sizes
