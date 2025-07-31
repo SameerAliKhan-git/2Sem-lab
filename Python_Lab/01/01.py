@@ -1,14 +1,14 @@
 # 01. Write a program to find the product and sum of two matrices [A]nxp and [B]pxr using Numpy.
 
 
-import numpy as np
+import numpy as nmp
 
 # Example sizes
 n, p, r = 3, 2, 4
 
 # Create random matrices A[nxp] and B[pxr]
-A = np.random.randint(1, 10, size=(n, p))
-B = np.random.randint(1, 10, size=(p, r))
+A = nmp.random.randint(1, 10, size=(n, p))
+B = nmp.random.randint(1, 10, size=(p, r))
 
 print("Matrix A:")
 print(A)
@@ -24,6 +24,6 @@ else:
     print("\nSum not possible: Matrices have different shapes.")
 
 # Matrix Product
-product = np.dot(A, B)
-print("\nProduct of A and B:")
+product = nmp.dot(A, B)
+print("\nproduct of A and B:")
 print(product)
