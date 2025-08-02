@@ -1,5 +1,5 @@
 # mymathutils.py
-def is_prime(n):
+def is_prime(n: int) -> bool:
     """Check if a number is a prime number."""
     if n <= 1:
         return False
@@ -8,6 +8,7 @@ def is_prime(n):
             return False
     return True
 
-def is_palindrome(n):
+def is_palindrome(n: int) -> bool:
     """Check if a number is a palindrome."""
     return str(n) == str(n)[::-1]
+    
